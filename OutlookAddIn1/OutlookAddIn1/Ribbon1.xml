@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2009/07/customui" onLoad="Ribbon_Load" loadImage ="LoadImages">
+  <ribbon>
+    <tabs>
+      <tab idMso="TabAddIns" label="relancer les membres n'ayant pas répondu">
+        <group id="MyGroup"
+               label="My Group">
+          <button id="MyButton" image="relancer" label ="relancer"  onAction="OnActionMyButton_Click" size="large"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
+
